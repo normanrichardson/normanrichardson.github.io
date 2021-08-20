@@ -52,7 +52,7 @@ nav a:hover{
 
 #project_container{
   display: flex;
-  justify-content: space-between;
+  justify-content: start;
   align-items: center;
   flex-wrap: wrap;
   width: 90vw;
@@ -62,7 +62,7 @@ nav a:hover{
 }
 
 .project-tile{
-  width: 30%;
+  width: 32%;
   height: auto;
   border-left: solid 1px;
   border-color: white;
