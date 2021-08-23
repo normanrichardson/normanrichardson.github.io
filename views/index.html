@@ -3,6 +3,8 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="../public/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="../script/project_lists.js"></script>
     </head>
     
     <body>
@@ -24,190 +26,11 @@
             </section>
             <section id="projects">
                 <h2>Web projects</h2>
-                <div id="project_container">
-                    <div class="project-tile" >
-                        <a href="https://codepen.io/Mormonorman/full/mdrxBGa" target="_blank">
-                            <p>Acme Klien Bottle</p>
-                        </a>
-                        <span>Topic: Landing page</span>
-                        <div class="tag-container">
-                            <div class="tag">
-                                Tech focus: 
-                            </div>
-                            <div class="tag">
-                                html,
-                            </div>
-                            <div class="tag">
-                                css,
-                            </div>
-                            <div class="tag">
-                                dynamic
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-tile" >
-                        <a href="https://codepen.io/Mormonorman/pen/rNWNebo" target="_blank">
-                            <p>25+5 Clock</p>
-                        </a>
-                        <span>Topic: Front-end web application</span>
-                        <!-- <span>Tech focus: react</span> -->
-                        <div class="tag-container">
-                            <div class="tag">
-                                Tech focus: 
-                            </div>
-                            <div class="tag">
-                                react
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-tile" >
-                        <a href="https://codepen.io/Mormonorman/pen/BaLEoeQ" target="_blank">
-                            <p>Markdown Previewer</p>
-                        </a>
-                        <span>Topic: Front-end web application</span>
-                        <!-- <span>Tech focus: react</span> -->
-                        <div class="tag-container">
-                            <div class="tag">
-                                Tech focus: 
-                            </div>
-                            <div class="tag">
-                                ajax
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-tile" >
-                        <a href="https://codepen.io/Mormonorman/pen/poNjKpj" target="_blank">
-                            <p>Choropleth Map</p>
-                        </a>
-                        <span>Topic: Data visualization</span>
-                        <div class="tag-container">
-                            <div class="tag">
-                                Tech focus: 
-                            </div>
-                            <div class="tag">
-                                D3
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-tile" >
-                        <a href="https://codepen.io/Mormonorman/pen/qBqbWWq" target="_blank">
-                            <p>Treemap Diagram</p>
-                        </a>
-                        <span>Topic: Data visualization</span>
-                        <div class="tag-container">
-                            <div class="tag">
-                                Tech focus: 
-                            </div>
-                            <div class="tag">
-                                D3
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-tile" >
-                        <a href="https://codepen.io/Mormonorman/full/xxEYyVr" target="_blank">
-                            <p>Exercise Tracker</p>
-                        </a>
-                        <span>Topic: API</span>
-                        <div class="tag-container">
-                            <div class="tag">
-                                Tech focus: 
-                            </div>
-                            <div class="tag">
-                                NodeJS,
-                            </div>
-                            <div class="tag">
-                                Express,
-                            </div>
-                            <div class="tag">
-                                MongoDB
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-tile" >
-                        <a href="https://codepen.io/Mormonorman/full/xxEYyVr" target="_blank">
-                            <p>Personal Library</p>
-                        </a>
-                        <span>Topic: API quality assurance</span>
-                        <div class="tag-container">
-                            <div class="tag">
-                                Tech focus: 
-                            </div>
-                            <div class="tag">
-                                chai,
-                            </div>
-                            <div class="tag">
-                                NodeJS,
-                            </div>
-                            <div class="tag">
-                                Express
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-tile" >
-                        <a href="https://codepen.io/Mormonorman/full/xxEYyVr" target="_blank">
-                            <p>Sudoku Solver</p>
-                        </a>
-                        <span>Topic: API quality assurance</span>
-                        <div class="tag-container">
-                            <div class="tag">
-                                Tech focus: 
-                            </div>
-                            <div class="tag">
-                                chai,
-                            </div>
-                            <div class="tag">
-                                NodeJS,
-                            </div>
-                            <div class="tag">
-                                Express
-                            </div>
-                        </div>
-                    </div>
+                <div id="web_project_container" class="project_container">
                 </div>
                 <h2>Open source projects</h2>
-                <div id="project_container">
-                    <div class="project-tile" >
-                        <a href="https://github.com/normanrichardson/StructGlassCalcs" target="_blank">
-                            <p>structuralglass</p>
-                        </a>
-                        <span>Topic: Python package</span>
-                        <div class="tag-container">
-                            <div class="tag">
-                                Tech focus: 
-                            </div>
-                            <div class="tag">
-                                numpy,
-                            </div>
-                            <div class="tag">
-                                scipy,
-                            </div>
-                            <div class="tag">
-                                pint
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-tile" >
-                        <a href="https://github.com/normanrichardson/rhino_shapely_interop" target="_blank">
-                            <p>rhino_shapely_interop</p>
-                        </a>
-                        <span>Topic: Python package</span>
-                        <div class="tag-container">
-                            <div class="tag">
-                                Tech focus: 
-                            </div>
-                            <div class="tag">
-                                rhino3dm,
-                            </div>
-                            <div class="tag">
-                                Shapely,
-                            </div>
-                            <div class="tag">
-                                numpy
-                            </div>
-                        </div>
-                    </div>
+                <div id="os_project_container" class="project_container">
                 </div>
-                <p>View my FCC progress <a id="profile-link" href="https://www.freecodecamp.org/fcc21752981-84f1-47db-a786-eea26f47141e" target="_blank">here</a></p>
             </section>
             <section id="contact_info">
                 <div id="contact_container">

@@ -50,7 +50,7 @@ nav a:hover{
   color: white;
 }
 
-#project_container{
+.project_container{
   display: flex;
   justify-content: start;
   align-items: center;
