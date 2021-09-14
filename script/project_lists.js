@@ -3,56 +3,56 @@ projects = [
     {
         type: "web",
         name: "Acme Klien Bottle",
-        link: "https://codepen.io/Mormonorman/full/mdrxBGa",
+        link: "https://github.com/normanrichardson/FCC-Landing-Page",
         topic: "Landing page",
         tech: ["html", "css", "dynamic"]
     },
     {
         type: "web",
         name: "25+5 Clock",
-        link: "https://codepen.io/Mormonorman/pen/rNWNebo",
+        link: "https://github.com/normanrichardson/FCC-25plus5-Clock",
         topic: "Front-end web application",
         tech: ["react"]
     },
     {
         type: "web",
         name: "Markdown Previewer",
-        link: "https://codepen.io/Mormonorman/pen/BaLEoeQ",
+        link: "https://github.com/normanrichardson/FCC-Markdown-Previewer",
         topic: "Front-end web application",
-        tech: ["jQuery"]
+        tech: ["jQuery", "Bootstrap"]
     },
     {
         type: "web",
         name: "Choropleth Map",
-        link: "https://codepen.io/Mormonorman/pen/poNjKpj",
+        link: "https://github.com/normanrichardson/FCC-Choropleth-Map",
         topic: "Data visualization",
         tech: ["D3"]
     },
     {
         type: "web",
         name: "Treemap Diagram",
-        link: "https://codepen.io/Mormonorman/pen/qBqbWWq",
+        link: "https://github.com/normanrichardson/FCC-Treemap-Diagram",
         topic: "Data visualization",
         tech: ["D3"]
     },
     {
         type: "web",
         name: "Exercise Tracker",
-        link: "https://codepen.io/Mormonorman/pen/qBqbWWq",
+        link: "https://github.com/normanrichardson/FCC-Exercise-Tracker",
         topic: "API",
         tech: ["NodeJS", "Express", "MongoDB"]
     },
     {
         type: "web",
         name: "Personal Library",
-        link: "https://codepen.io/Mormonorman/pen/qBqbWWq",
+        link: "https://github.com/normanrichardson/FCC-Personal-Library",
         topic: "API quality assurance",
         tech: ["chai", "NodeJS", "Express", "MongoDB"]
     },
     {
         type: "web",
         name: "Sudoku Solver",
-        link: "https://codepen.io/Mormonorman/pen/qBqbWWq",
+        link: "https://github.com/normanrichardson/FCC-Sudoku-Solver",
         topic: "API quality assurance",
         tech: ["chai", "NodeJS", "Express"]
     },
