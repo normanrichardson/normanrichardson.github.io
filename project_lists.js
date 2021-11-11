@@ -59,7 +59,7 @@ projects = [
     {
         type: "opensource",
         name: "structuralglass",
-        link: "https://github.com/normanrichardson/StructGlassCalcs",
+        link: "https://github.com/normanrichardson/structuralglass",
         topic: "Python package",
         tech: ["numpy", "scipy", "pint"]
     },
