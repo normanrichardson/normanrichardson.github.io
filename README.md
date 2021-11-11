@@ -1,0 +1,1 @@
+A personal website that focuses on the basics (both in content and technology).
